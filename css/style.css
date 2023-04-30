@@ -160,30 +160,35 @@ a{
     margin: 1rem 0;
 }
 
-@media(max-width: 1200px){
+@media screen and (max-width:768px) {
     .container{
-        width: auto;
-        flex-direction: column;
+        display: block;
+        background-image: none;
     }
 
     .container_imagem{
-        width: 80%;
+        width: 50vw;
+    }
+
+    .container_caixa{
+        margin: 2em 2em;
     }
 
     .secundario{
-        flex-direction: column;
+        margin: 0;
+        text-align: center;
     }
 
-    .rodape_lista{
-        flex-direction: column;
-    }
-
-    .dispositivos{
-        width: auto;
-        flex-direction: column;
+    .secundario_imagem{
+        width: 50vw;
     }
 
     .dispositivos_lista{
-        flex-direction: column;
+        display: block;
     }
+
+    .rodape_lista{
+        display: block;
+    }
+    
 }
