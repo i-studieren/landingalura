@@ -148,6 +148,11 @@ a{
     font-size: 1rem;
 }
 
+.lista_link a:hover{
+    color: var(--botao-azul);
+    font-size: 1.08em;
+}
+
 .rodape_texto{
     color: var(--cinza-secundario);
     font-size: 0.875em;
